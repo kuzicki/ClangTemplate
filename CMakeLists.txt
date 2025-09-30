@@ -11,7 +11,7 @@ file(GLOB_RECURSE SOURCES CONFIGURE_DEPENDS
 
 add_executable(new_project ${SOURCES})
 
-target_include_directories(mrvzis3 PRIVATE
+target_include_directories(new_project PRIVATE
     ${CMAKE_SOURCE_DIR}/include/
 )
 
